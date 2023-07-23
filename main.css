@@ -1,0 +1,189 @@
+/* normalize */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+input {
+  font: inherit;
+}
+
+/* normalize */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  color: #3f4a51;
+  background-color: #107abb;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1400px;
+  width: 100%;
+}
+
+.column {
+  width: 32%;
+  height: fit-content;
+	background-color: #dee2e5;
+	border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0px 5px 8px -3px rgba(34, 60, 80, 0.31);
+}
+
+.column__header {
+  font-size: 1.4rem;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.cards {
+  margin: 20px 0 10px;
+  font-size: 1.2rem;
+  user-select: none;
+  min-height: 1px;
+}
+
+.cards > * {
+  margin-bottom: 10px;
+}
+
+.cards > :last-child {
+  margin-bottom: 0;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+	border-radius: 5px;
+	background-color: #fff;
+  padding: 10px;
+  box-shadow: 0px 5px 8px -3px rgba(34, 60, 80, 0.31);
+}
+
+.card:hover {
+	background-color: #d5dbde;
+  cursor: pointer;
+}
+
+.card.dragging {
+  background-color: #a5d6ac;
+  cursor: grabbing;
+}
+
+.card:active {
+	background-color: #a5d6ac;
+  cursor: grabbing;
+}
+
+.add {
+  margin-top: 10px;
+}
+
+.add-card {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding-left: 10px;
+  color: #728690;
+}
+
+.add-card:hover {
+  text-decoration: underline;
+  color: #3f4a51;
+}
+
+.card__text {
+  max-width: 100%;
+  word-wrap: break-word;
+  word-break: normal;
+}
+
+.card-delete {
+  align-self: flex-start;
+  opacity: 0;
+  font-size: 1.4rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: #728690;
+}
+
+.card-delete:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.add-input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  border: none;
+  outline: none;
+	border-radius: 5px;
+	background-color: #fff;
+  padding: 10px;
+  box-shadow: 0px 5px 8px -3px rgba(34, 60, 80, 0.31);
+  font-size: 1.2rem;
+  resize: none;
+}
+
+.add-button__container {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.add-button {
+  margin-right: 15px;
+  padding: 10px 20px;
+  background-color: #5ca84d;
+  box-shadow: 0px 5px 8px -3px rgba(34, 60, 80, 0.31);
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  transition: all 500ms;
+  font-size: 1.2rem;
+}
+
+.add-button:hover {
+  background-color: rgb(138, 213, 122);
+  color: #3f4a51;
+  transition: all 500ms;
+}
+
+.close {
+  font-size: 1.4rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: #728690;
+}
+
+.invisible {
+  display: none;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
