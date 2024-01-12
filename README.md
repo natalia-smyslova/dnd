@@ -1,4 +1,4 @@
-![image](https://github.com/natalia-smyslova/dnd/assets/86496377/93a16734-b50f-413d-bf3f-d0ffce41c484)![image](https://github.com/natalia-smyslova/dnd/assets/86496377/82fe02c7-00db-43e1-a28d-3b337c0c93c4)[![Build status](https://ci.appveyor.com/api/projects/status/yjfmrvj7cp68sdd4/branch/main?svg=true)](https://ci.appveyor.com/project/natalia-smyslova/dnd/branch/main)    
+[![Build status](https://ci.appveyor.com/api/projects/status/yjfmrvj7cp68sdd4/branch/main?svg=true)](https://ci.appveyor.com/project/natalia-smyslova/dnd/branch/main)    
 
 [Deployment](https://natalia-smyslova.github.io/dnd/)
 
